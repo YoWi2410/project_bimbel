@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-    </section>
+</section>
 
 
     <section class="benefits">
@@ -262,7 +262,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout.create', 'bimbel-privat')}}" class="btn btn-master btn-primary w-100 mt-3">
+                                    <a href="{{route('checkout')}}" class="btn btn-master btn-primary w-100 mt-3">
                                         Take This Plan
                                     </a>
                                 </p>
@@ -301,7 +301,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout.create', 'bimbel-umum')}}" class="btn btn-master btn-secondary w-100 mt-3">
+                                    <a href="{{route('checkout')}}" class="btn btn-master btn-secondary w-100 mt-3">
                                         Start With This Plan
                                     </a>
                                 </p>
@@ -402,4 +402,4 @@
             </div>
         </div>
     </section>
-@endsection
+@endsection()
