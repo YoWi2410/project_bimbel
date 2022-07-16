@@ -32,7 +32,7 @@
             </div>
             <div class="row brands">
                 <div class="col-lg-12 col-12 text-center">
-                    <img src="{{asset('images/brands.png" ')}}alt="">
+                    <img src="{{asset('images/brands.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -337,7 +337,7 @@
                             <div class="item-review">
                                 <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
-                                    I was not really into code but after they teach me how to train my logic then I was really fall in love with code
+                                Saya sangat terbantu dengan web bimbel ini karena kita bisa belajar lewat daring  dalam masa pandemi
                                 </p>
                                 <div class="user">
                                     <img src="{{asset('images/fanny_photo.')}}png" class="photo" alt="">
@@ -346,7 +346,7 @@
                                             Fanny
                                         </h4>
                                         <p class="role">
-                                            Developer at Google
+                                            Siswa
                                         </p>
                                     </div>
                                 </div>
@@ -356,16 +356,15 @@
                             <div class="item-review">
                                 <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
-                                    Code is really important if we want to build a company and strike to the win
-                                </p>
+                                Bimbel ini sangat berguna bagi para peserta untuk lebih fokus ke sekolah yang di tuju
                                 <div class="user">
                                     <img src="{{asset('images/angga.png')}}" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
-                                            Angga
+                                            Eluzai
                                         </h4>
                                         <p class="role">
-                                            CEO at BWA Corp
+                                            Siswa
                                         </p>
                                     </div>
                                 </div>
@@ -375,16 +374,16 @@
                             <div class="item-review">
                                 <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
-                                    My background is design and art but I do really love how to make my design working in the development phase
+                                Web ini sangat membantu dalam menentukan langkah kita kedepannya dan tujuan impian kita
                                 </p>
                                 <div class="user">
                                     <img src="{{asset('images/beatrice.png')}}" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
-                                            Beatrice
+                                            Eunike
                                         </h4>
                                         <p class="role">
-                                            QA at Facebook
+                                            Siswa
                                         </p>
                                     </div>
                                 </div>
