@@ -20,7 +20,7 @@
                             <div class="item-bootcamp">
                                 <img src="{{asset('images/item_bootcamp.png')}}" alt="" class="cover">
                                 <h1 class="package text-uppercase">
-                                    BIMBEL PRIVAT
+                                    {{$camp->title}}
                                 </h1>
                                 <p class="description">
                                 Bimbel ini akan mengajak Anda untuk belajar penuh mulai dari pengenalan dasar sampai membangun sebuah pengetahuan dasar
@@ -29,19 +29,19 @@
                         </div>
                         <div class="col-lg-1 col-12"></div>
                         <div class="col-lg-6 col-12">
-                            <form action="success-checkout" class="basic-form" >
+                            <form action="{{route('checkout.store', $camp->id)}}" class="basic-form" method="POST">
                                 @csrf
                                 <div class="mb-4">
                                     <label class="form-label">Full Name</label>
-                                    <input name="name" type="text" class="form-control" />
+                                    <input name="name" type="text" class="form-control" value="{{Auth::user()->name}}" />
                                 </div>
                                 <div class="mb-4">
                                     <label class="form-label">Email Address</label>
-                                    <input name="email" type="email" class="form-control" />
+                                    <input name="email" type="email" class="form-control" value="{{Auth::user()->email}}" />
                                 </div>
                                 <div class="mb-4">
                                     <label class="form-label">Jenjang</label>
-                                    <input name="jenjang" type="text" class="form-control" />
+                                    <input name="jenjang" type="text" class="form-control" value="{{Auth::user()->jenjang}}" />
                                 </div>
                                 <div class="mb-4">
                                     <label class="form-label">Card Number</label>

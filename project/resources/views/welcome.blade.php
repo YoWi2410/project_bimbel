@@ -32,7 +32,7 @@
             </div>
             <div class="row brands">
                 <div class="col-lg-12 col-12 text-center">
-                    <img src="/assets/images/brands.png" alt="">
+                    <img src="{{asset('images/brands.png" ')}}alt="">
                 </div>
             </div>
         </div>
@@ -199,7 +199,7 @@
                                     $300K
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Guru Professional
                                     </p>
@@ -207,7 +207,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Kurikulum Mengikuti
                                     </p>
@@ -215,7 +215,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Fokus US & AN
                                     </p>
@@ -223,7 +223,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     1-1 Teacher Study
                                     </p>
@@ -231,7 +231,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     SBMPTN & SNMPTN
                                     </p>
@@ -239,7 +239,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Online & Offline Class
                                     </p>
@@ -247,7 +247,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Premium Class Web
                                     </p>
@@ -255,14 +255,14 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Untuk SD, SMP, SMA
                                     </p>
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout')}}" class="btn btn-master btn-primary w-100 mt-3">
+                                    <a href="{{route('checkout.create', 'bimbel-privat')}}" class="btn btn-master btn-primary w-100 mt-3">
                                         Take This Plan
                                     </a>
                                 </p>
@@ -277,7 +277,7 @@
                                     $150K
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Guru Professional
                                     </p>
@@ -285,7 +285,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Untuk SD, SMP, SMA
                                     </p>
@@ -293,7 +293,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="/assets/images/ic_check.svg" alt="">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                     Offline Class
                                     </p>
@@ -301,7 +301,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout')}}" class="btn btn-master btn-secondary w-100 mt-3">
+                                    <a href="{{route('checkout.create', 'bimbel-umum')}}" class="btn btn-master btn-secondary w-100 mt-3">
                                         Start With This Plan
                                     </a>
                                 </p>
@@ -312,7 +312,7 @@
             </div>
             <div class="row pb-70">
                 <div class="col-lg-12 col-12 text-center">
-                    <img src="/assets/images/brands.png" height="30" alt="">
+                    <img src="{{asset('images/brands.png')}}" height="30" alt="">
                 </div>
             </div>
         </div>
@@ -335,12 +335,12 @@
                     <div class="row">
                         <div class="col-lg-4 col-12">
                             <div class="item-review">
-                                <img src="/assets/images/stars.svg" alt="">
+                                <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
                                     I was not really into code but after they teach me how to train my logic then I was really fall in love with code
                                 </p>
                                 <div class="user">
-                                    <img src="/assets/images/fanny_photo.png" class="photo" alt="">
+                                    <img src="{{asset('images/fanny_photo.')}}png" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
                                             Fanny
@@ -354,12 +354,12 @@
                         </div>
                         <div class="col-lg-4 col-12">
                             <div class="item-review">
-                                <img src="/assets/images/stars.svg" alt="">
+                                <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
                                     Code is really important if we want to build a company and strike to the win
                                 </p>
                                 <div class="user">
-                                    <img src="/assets/images/angga.png" class="photo" alt="">
+                                    <img src="{{asset('images/angga.png')}}" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
                                             Angga
@@ -373,12 +373,12 @@
                         </div>
                         <div class="col-lg-4 col-12">
                             <div class="item-review">
-                                <img src="/assets/images/stars.svg" alt="">
+                                <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
                                     My background is design and art but I do really love how to make my design working in the development phase
                                 </p>
                                 <div class="user">
-                                    <img src="/assets/images/beatrice.png" class="photo" alt="">
+                                    <img src="{{asset('images/beatrice.png')}}" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
                                             Beatrice
