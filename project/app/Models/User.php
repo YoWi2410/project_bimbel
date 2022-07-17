@@ -24,6 +24,8 @@ class User extends Authenticatable
         'password',
         'avatar',
         'jenjang',
+        'phone', 
+        'address',
         'is_admin',
         'email_verified_at'
     ];
