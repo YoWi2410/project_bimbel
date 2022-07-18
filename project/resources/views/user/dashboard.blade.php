@@ -31,15 +31,20 @@
                                 </p>
                             </td>
                             <td>
-                                <strong>{{$checkout->Camp->price}}k</strong>
+                                <strong>
+                                Rp. {{$checkout->total}}
+                                @if ($checkout->discount_id)
+                                    <span class="badge bg-success">Disc {{$checkout->discount_percentage}}%</span>
+                                @endif
+                                </strong>
+                            </td>
+                            <td><strong>{{$checkout->payment_status}}</strong>
                             </td>
                             <td>
-                                @if ($checkout->is_paid)
-                                    <strong class="text-success">Payment Success</strong>
-                                @else
-                                    <strong>Waiting for Payment</strong>
+                                @if ($checkout->payment_status == 'waiting')
+                                <a href="{{$checkout->midtrans_url}}" class="btn btn-primary">Pay Here</a>
                                 @endif
-                            </td>
+                            </td>    
                             <td>
                                 <a href="https://wa.me/089637100447?text=Hi, saya ingin berkonsultasi tentang kelas {{$checkout->Camp->title}}" class="btn btn-primary">
                                     Contact Support
@@ -49,7 +54,7 @@
                         @empty
                         <tr>
                             <td colspan="5">
-                                <h3>No Data</h3>
+                                <h3>No Bimbel Registered</h3>
                             </td>
                         </tr>
                         @endforelse
